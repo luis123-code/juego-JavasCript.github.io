@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" media="screen-and()">
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js" integrity="sha512-tgY2qswcbQir80Vp67s5ZdbKikl99YmVXp3V/C4Acthk4gI29ONbQ+MR8B5tpESkNoa0N1P7HnSuzC6nOflrwA==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7b9ca42581.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="videojuego">
+        <div class="conteiner__Visita">
+            <p style="font-size: 30px; font-weight: 600;">Juego de Supervivencia 😎...<span>&#160;</span> </p>
+        </div>
+        <div>
+            <audio id="audioSuperficial">
+                <source src="/audioGame/the-final-boss-battle-158700.mp3" type="audio/mpeg">
+              </audio>
+        </div>
+        <div class="juego">
+            <div class="game-container">
+                <canvas id="game" class="canva"></canvas>
+                <div class="btns">
+                    <button id="up"><i class="fa-solid fa-arrow-up"></i></button>
+                    <button id="left"><i class="fa-solid fa-arrow-right"></i></button>
+                    <button id="right"><i class="fa-solid fa-arrow-right fa-rotate-180"></i></button>
+                    <button id="down"><i class="fa-solid fa-arrow-down-long"></i></button>
+                </div>
+                <div class="messages">
+                    <p>vidas  👻 : <span id="live"></span></p>
+                    <p>tiempo 🕐 : <span id="time"></span></p>
+                    <p>record ⭐ : <span id="record">0000</span></p>
+                </div>
+            </div>
+            <div class="fondoNegro"></div>
+            <div class="fondoNegro"></div>
+        </div>
+    </div>
+    <script src="/js/map.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
