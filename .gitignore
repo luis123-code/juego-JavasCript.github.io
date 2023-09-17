@@ -1,0 +1,6 @@
+*.json
+.md
+conocimiento.js
+node_modules/
+conocimiento.md
+.vscode
